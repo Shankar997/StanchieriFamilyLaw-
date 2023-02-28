@@ -1,0 +1,2030 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+body
+{
+	font-family: 'Josefin Sans', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	background: #111;
+}
+address
+{
+	color:#ccc;
+}
+a:hover
+{
+	text-decoration:none;
+}
+a.box-btn {
+    display: inline-table;
+    border: 1px solid;
+    color: #fff;
+    font-weight: bold;
+    padding: 15px 41px;
+}
+a.box-btn:hover {
+    border-color: #FF7272;
+}
+.border-middle
+{
+	
+	border-right:1px solid;
+	border-color: #6666;
+}
+
+.content 
+{
+    padding-bottom: 2.61em;
+    color: #ccc;
+    padding-top: 13px;
+    letter-spacing: 3px;
+	line-height:3;
+	font-size:16px;
+}
+
+h1,h2,h3,h4,h5
+{
+	color:#fff;
+	letter-spacing:3px;
+}
+h2.heading-34
+{
+	color:#666;
+	padding-bottom:10vh;
+}
+h2.heading-34.left-title-underline::after
+{
+	content: "";
+    display: block;
+    bottom: 0;
+    top: 30vh;
+    background: #333333;
+    height: 1px;
+    width: 50px;
+    position: absolute;
+}
+
+
+
+.title-underline::after
+{
+	content: "";
+    display: block;
+    bottom: 0;
+    background: #333333;
+    height: 1px;
+    width: 50px;
+    position: absolute;
+}
+.two-checklist
+{
+	border:1px solid;
+	padding-top:20vh;
+}
+li.types
+{
+	padding-top: 10px;
+    color: #ccc;
+    font-size: 18px;
+}
+
+ol,ul li
+{
+	list-style:none;
+}
+
+li
+{
+	font-size:16px;
+}
+
+h2.heading {
+    color: #fff;
+    text-transform: uppercase;
+	height: 100%;
+}
+h2.heading.title-underline::after{
+    content: "";
+    display: block;
+    bottom: 0;
+    top: 78px;
+    background: #333333;
+    height: 1px;
+    width: 50px;
+    position: absolute;
+}
+h1.heading{
+	color:#fff;
+	text-transform:uppercase;
+	font-size: 48px;
+    line-height: 1;
+	
+}
+h1.heading.title-underline::after, .h1.heading.title-underline::after {
+    content: "";
+    display: block;
+    bottom: 0;
+    left: 50%;
+	top: 85px;
+    transform: translateX(-50%);
+    background: #333333;
+    height: 1px;
+    width: 50px;
+    position: absolute;
+}
+span.title
+{
+	color:#fff;
+	font-weight:bold;
+	letter-spacing:3px;
+}
+.column-line {
+    padding-bottom: 50px;
+}
+#collapseOne,#collapseTwo,#collapseThree{
+    font-size: 14px;
+    margin-top: 2em;
+    font-style: normal;
+    /* letter-spacing: 5px; */
+    line-height: 2.3;
+    font-weight: 400;
+}
+nav.navbar.navbar-expand-md {
+    z-index: 999;
+	position:fixed;
+	
+}
+.navbar-light .navbar-toggler
+{
+	display: inherit;
+    /* left: 102px; */
+    position: FIXED;
+    right: 23px;
+}
+nav.navbar.navbar-expand-lg.navbar-light
+{
+    background:#000 !important;
+}
+.main-logo a.navbar-brand 
+{
+color: #fff !important;
+font-size: 18px;
+font-weight:bold;
+}
+
+#navbarNav
+{
+    justify-content: flex-end;
+}
+.navbar-nav li.nav-item a.nav-link {
+    color: #fff;
+    /* font-weight: 550; */
+    text-transform: uppercase;
+    font-size: 28px;
+    letter-spacing: 2px;
+    line-height: 3;
+
+}
+.navbar-nav li.nav-item a.nav-link:hover
+{
+		color: #FF7272;
+		transition: 0.5s ease-in;
+}
+.navbar-light .navbar-toggler {
+    color: rgba(0,123,255,.5);
+    border-color: #dc3545 !important;
+}
+/*
+.navbar-nav li.nav-item a.disclaimer {
+    /* bottom: 50%; 
+    position: fixed;
+    bottom: 22px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}*/
+.navbar-nav .nav-item a.nav-link.btn
+{
+	border:1px solid #333333;
+	padding: 0px 30px;
+}
+.navbar-nav .nav-item a.nav-link.btn:hover
+{
+	color:#fff !important;
+	border-color:#FF7272;
+}
+.navbar-nav .nav-item a.nav-link.btn span {
+    font-size: 16px;
+    font-weight: bold;
+}
+	#JULIE-STANCHIERI {
+		background-image: url('../img/JULIE STANCHIERI.jpg');
+		height: 562px;
+		background-repeat: repeat;
+		background-size: cover;
+		position: relative;
+		width: 100%;
+		height: 100vh;
+		z-index: 1;
+		/* left: -10%; */
+		padding: -79px;
+		background-origin: content-box;
+		background-attachment: fixed;
+	}
+	#ADRIENNE-LEE {
+		background-image: url('../img/ADRIENNE LEE.jpg');
+		height: 562px;
+		background-repeat: repeat;
+		background-size: cover;
+		position: relative;
+		width: 100%;
+		height: 100vh;
+		z-index: 1;
+		/* left: -10%; */
+		padding: -79px;
+		background-origin: content-box;
+		background-attachment: fixed;
+	}
+	#NATALIE-DERBYSHIRE
+	{
+		background-image: url('../img/Natalie-Derbyshire-Family-Lawyer-scaled.jpg');
+		height: 562px;
+		background-repeat: repeat;
+		background-size: cover;
+		position: relative;
+		width: 100%;
+		height: 100vh;
+		z-index: 1;
+		/* left: -10%; */
+		padding: -79px;
+		background-origin: content-box;
+		background-attachment: fixed;
+	}
+
+	#RACHEL-HEALEY
+	{
+		background-image: url('../img/rachel-3-scaled.jpg');
+		height: 562px;
+		background-repeat: repeat;
+		background-size: cover;
+		position: relative;
+		width: 100%;
+		height: 100vh;
+		z-index: 1;
+		/* left: -10%; */
+		padding: -79px;
+		background-origin: content-box;
+		background-attachment: fixed;
+	}
+
+	#JENNIFER-VALLIERE
+	{
+		background-image: url('../img/Jennifer-Valliere-Family-Lawyer-scaled3.jpg');
+		height: 562px;
+		background-repeat: repeat;
+		background-size: cover;
+		position: relative;
+		width: 100%;
+		height: 100vh;
+		z-index: 1;
+		/* left: -10%; */
+		padding: -79px;
+		background-origin: content-box;
+		background-attachment: fixed;
+	}
+	#DEBORAH-CLARKE
+	{
+		background-image: url('../img/profile-hero-photo_DC-1-scaled.jpg');
+		height: 562px;
+		background-repeat: repeat;
+		background-size: cover;
+		position: relative;
+		width: 100%;
+		height: 100vh;
+		z-index: 1;
+		/* left: -10%; */
+		padding: -79px;
+		background-origin: content-box;
+		background-attachment: fixed;
+	}
+	#TYLER-TEICHERT
+	{
+		background-image: url('../img/tyler-hero-banner-scaled.jpg');
+		height: 562px;
+		background-repeat: repeat;
+		background-size: cover;
+		position: relative;
+		width: 100%;
+		height: 100vh;
+		z-index: 1;
+		/* left: -10%; */
+		padding: -79px;
+		background-origin: content-box;
+		background-attachment: fixed;
+	}
+	#ASHLEY-KENNEDY
+	{
+		background-image: url('../img/profile-hero-photo_AK-scaled.jpg');
+		height: 562px;
+		background-repeat: repeat;
+		background-size: cover;
+		position: relative;
+		width: 100%;
+		height: 100vh;
+		z-index: 1;
+		/* left: -10%; */
+		padding: -79px;
+		background-origin: content-box;
+		background-attachment: fixed;
+	}
+	#ROBERT-MILLEY
+	{
+		background-image: url('../img/rh-hero-photo-scaled.jpg');
+		height: 562px;
+		background-repeat: repeat;
+		background-size: cover;
+		position: relative;
+		width: 100%;
+		height: 100vh;
+		z-index: 1;
+		/* left: -10%; */
+		padding: -79px;
+		background-origin: content-box;
+		background-attachment: fixed;
+	}
+	#RAMSHA-KHAN
+	{
+		background-image: url('../img/ramsha-hero-banner-scaled.jpg');
+		height: 562px;
+		background-repeat: repeat;
+		background-size: cover;
+		position: relative;
+		width: 100%;
+		height: 100vh;
+		z-index: 1;
+		/* left: -10%; */
+		padding: -79px;
+		background-origin: content-box;
+		background-attachment: fixed;
+	}
+	#ASHLEY-LEGER
+	{
+		background-image: url('../img/profile-hero-photo_AAL-scaled.jpg');
+		height: 562px;
+		background-repeat: repeat;
+		background-size: cover;
+		position: relative;
+		width: 100%;
+		height: 100vh;
+		z-index: 1;
+		/* left: -10%; */
+		padding: -79px;
+		background-origin: content-box;
+		background-attachment: fixed;
+	}
+	#CHRISTI-KAY
+	{
+		background-image: url('../img/profile-hero-photo-CK-1.jpg');
+		height: 562px;
+		background-repeat: repeat;
+		background-size: cover;
+		position: relative;
+		width: 100%;
+		height: 100vh;
+		z-index: 1;
+		/* left: -10%; */
+		padding: -79px;
+		background-origin: content-box;
+		background-attachment: fixed;
+	}
+	#LOUIS-PARENT
+	{
+		background-image: url('../img/profile-hero-photo_LP-scaled.jpg');
+		height: 562px;
+		background-repeat: repeat;
+		background-size: cover;
+		position: relative;
+		width: 100%;
+		height: 100vh;
+		z-index: 1;
+		/* left: -10%; */
+		padding: -79px;
+		background-origin: content-box;
+		background-attachment: fixed;
+	}
+.Content-team {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+#Team-text
+{
+	padding-top:20vh;
+	padding-bottom:20vh;
+}
+a.read-btn:hover
+{
+	color:#cccc;
+}
+a.read-btn
+ {
+    border: 1px solid #666;
+    padding: 14px 14px;
+    color: #fff;
+	position: relative;
+    bottom: 26px;
+	font-weight:bold;
+	text-decoration:none;
+	letter-spacing:1px;
+	font-size:14px;
+    
+}
+#data-type h5.heading 
+{
+    font-weight: bold;
+}
+
+#data-type 
+{
+	padding-top: 20vh;
+    padding-bottom: 10vh;
+}
+#data-type h5.heading::after
+{
+	background: #333333;
+    width: 50px;
+    height: 1px;
+    content: "";
+    display: block;
+    position: relative;
+    left: 0;
+    top: 30px;
+}
+#data-type ul.checklist 
+{
+    margin-top: 62px;
+}
+#data-type ul.checklist  li 
+{
+    color: #cccc;
+    letter-spacing: 3px;
+    line-height:4;
+}
+#data-type ul.checklist li i.fa.fa-check 
+{
+    padding-right: 15px;
+    color: #fff;
+}
+#data-type ul.checklist li  em
+ {
+    float: right;
+    color: #9999;
+    font-style: normal;
+}
+
+#meet-others {
+    padding-top: 20vh;
+}
+#Team-list a:hover
+{
+	border:1px solid #fff;
+}
+
+#home-page
+{
+background-image: url('../img/Stanchieri-Family-Law.jpg');
+height:562px;
+background-position:center;
+background-repeat:repeat;
+background-size: cover;
+bottom: 66px; 
+position: relative;
+width: 100%;
+height: 100vh;
+z-index: 1;
+}
+#covid-btn {
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    min-width: 130px;
+    cursor: pointer;
+    border-radius: 0;	
+    z-index: 100;
+	color: #fff;
+    border: 1px solid;
+    padding: 9px;
+	border-color: #4c4949;
+
+}
+#covid-btn:hover {
+    border-color: #FF7272;
+}
+.Content
+{
+	position: absolute;
+    top: 50%;
+    left: 0;
+	right: 0;
+	padding-left: 45px;
+    padding-right: 3em;
+	transform: translateY(-50%);
+	text-align:center;
+}
+.Content p
+{
+	color:#414b54;
+	font-weight:bold;
+	letter-spacing: 2px;
+}
+.Content-text 
+{
+	text-align:center;
+	color:#fff;
+	font-size:60px;	
+}
+a.typewrite {
+    LINE-HEIGHT: 1;
+    FONT-SIZE: 50px;
+    COLOR: #FFF;
+    TEXT-DECORATION: NONE;
+}
+
+#counsellors .typewriter h1  {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+.navbar-brand.Short
+{
+	display:none;
+}
+
+ul.navbar-nav {
+    background: #000;
+	z-index:2;
+    width: 100%;
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+}
+.arrow-img{
+    position: absolute;
+    /* bottom: 61px; */
+    left: 50%;
+    margin-left: -11px;
+    width: 22px;
+    height: 68px;
+    cursor: pointer;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 10;
+    animation: MoveUpDown 1s linear infinite;
+    /* position: relative; */
+    justify-content: center;
+    display: flex;
+    color: #fff;
+}
+ @keyframes MoveUpDown {
+     0%, 100% {
+         bottom: 10px;
+    }
+     50% {
+         bottom: 0px;
+    }
+}
+.arrow-img i
+{
+	font-size:40px;
+}
+button.hamburger.hamburger--spin.hvr-backward {
+    background: none;
+    border: 0;
+	position: fixed;
+    right: 54px;
+	outline:none;
+	display: inline-flex;
+}
+.disclaimer {
+    position: relative;
+    /* left: 50%; */
+    /* transform: translateX(-50%); */
+    width: 100%;
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+	font-size:14px;
+}
+small{
+	color: #666;
+    /* word-spacing: 4px; */
+    font-size: 18px;
+    letter-spacing: 0.2em;
+    line-height: 1.44;
+}
+.hamburger {
+    padding: 0;
+    display: inline-block;
+    cursor: pointer;
+    transition-property: opacity, filter;
+    transition-duration: 0.15s;
+    transition-timing-function: linear;
+    font: inherit;
+    color: inherit;
+    text-transform: none;
+    background-color: transparent;
+    border: 0;
+    margin: 0;
+    overflow: visible;
+    position: fixed;
+    top: 2.60417vw;
+    right: 2.60417vw;
+    z-index: 1000;
+}
+.hamburger:hover {
+    opacity: 1;
+}
+.hamburger-box {
+    width: 42px;
+    display: inline-block;
+    position: relative;
+}
+.hamburger--spin .hamburger-inner {
+    transition-duration: 0.22s;
+    transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+.hamburger .hamburger-inner, .hamburger .hamburger-inner::before, .hamburger .hamburger-inner::after {
+    height: 2px;
+    background-color: #FFF;
+    border-radius: 4px;
+    position: absolute;
+    transition-property: transform;
+    transition-duration: 0.15s;
+    transition-timing-function: ease;
+}
+.hamburger .hamburger-inner {
+    display: block;
+    top: 50%;
+    margin-top: -2px;
+    width: 30px;
+    left: 10px;
+}
+.hamburger--spin .hamburger-inner::before {
+    transition: top 0.1s 0.25s ease-in, opacity 0.1s ease-in;
+}
+.hamburger .hamburger-inner, .hamburger .hamburger-inner::before, .hamburger .hamburger-inner::after {
+    height: 2px;
+    background-color: #FFF;
+    border-radius: 4px;
+    position: absolute;
+    transition-property: transform;
+    transition-duration: 0.15s;
+    transition-timing-function: ease;
+}
+.hamburger .hamburger-inner::before {
+    top: -12px;
+}
+.hamburger .hamburger-inner::before, .hamburger .hamburger-inner::after {
+    width: 40px;
+    content: "";
+    display: block;
+    left: -10px;
+}
+.hamburger--spin .hamburger-inner::after {
+	transition: bottom 0.1s 0.25s ease-in, transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19); 
+}
+.hamburger .hamburger-inner, .hamburger .hamburger-inner::before, .hamburger .hamburger-inner::after {
+    height: 2px;
+    background-color: #FFF;
+    border-radius: 4px;
+    position: absolute;
+    transition-property: transform;
+    transition-duration: 0.15s;
+    transition-timing-function: ease;
+}
+.hamburger .hamburger-inner::after {
+    bottom: -12px;
+}
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  bottom:0;
+  right:0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  background:#000;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content 
+{
+    position: relative;
+    top: 14%;
+    width: 100%;
+    text-align: center;
+    /* margin-top: 30px; */
+    background: #000;
+	z-index:2;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px; 
+    /* right: 45px;*/
+    font-size: 60px;
+    left: 43px;
+}
+
+.max-1920 {
+    width: 1920px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.photo-block-wrapper {
+    position: relative;
+    display: block;
+    width: 1920px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 22.65625vw;
+    padding-right: 22.65625vw;
+    margin-bottom: 10.41667vw;
+    margin-top: 10.41667vw;
+}
+photo-block-wrapper .photo-block {
+    position: relative;
+}
+.photo-block-wrapper .photo-wrapper {
+    /*width: 31.25vw;*/
+    max-width: 100%;
+    border: none;
+    display: block;
+    position: relative;
+}
+.photo-block-wrapper .photo-wrapper img {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: auto;
+    display: block;
+    max-width: 100%;
+	opacity:0.2;
+	}
+.photo-block-wrapper .content {
+    right: 0;
+    border: 1px solid #222;
+    background: rgba(0, 0, 0, 0.3);
+    margin-left: auto;
+    margin-right: 0;
+    max-width: 100%;
+    color: #FFFFFF;
+    width: 36.45833vw;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 4;
+}
+.photo-block-wrapper .content .content-wrapper {
+    padding: 5.20833vw;
+}
+.photo-block-wrapper .content .content-wrapper h5.heading
+{
+	font-weight:bold;
+}
+.content-wrapper p
+{
+	color:#cccc;
+}
+.photo-block-wrapper .content .txt-link {
+    padding-top: 2em;
+    padding-bottom: 0;
+}
+.photo-block-wrapper .content a {
+    color: #cccc;
+	font-weight: bold;
+	text-decoration: none;
+}
+.photo-block-wrapper .content a:hover {
+    color: #FF7272;
+    transition: 0.50s all ease-in-out;
+}
+.photo-block-wrapper .content .txt-link i {
+    width: 24px;
+    position: relative;
+    display: inline-block;
+    padding: 0px 9px;
+    font-weight: bold;
+    font-size: 17px;
+}
+.photo-block-wrapper .photo-block::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.photo-block-wrapper::after {
+    content: "";
+    display: block;
+    bottom: -5.20833vw;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #333333;
+    height: 1px;
+    width: 50px;
+    position: absolute;
+}
+.photo-block-wrapper .photo-block::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.photo-block-wrapper.flipped .content {
+    right: unset;
+    left: 0;
+    margin-left: 0;
+    margin-right: auto;
+}
+.photo-block-wrapper.flipped {
+    position: relative;
+    right: 0;
+/*     left: 242px; */
+}
+#protecting-right {
+    margin: 35px;
+	padding: 7vw 0;
+}
+hr {
+    /* background: #fff; */
+    /* font-weight: bold; */
+    position: relative;
+    width: 100%;
+    border: none;
+    border-top: 4px solid #000;
+    margin: 0;
+    padding: 0px;
+    text-align: center;
+}
+#Team-leaders
+{
+	padding:100px;
+}
+#Team-list
+{
+	padding-top:100px;
+	padding-bottom: 20vh;
+}
+#Team-list a {
+    position: rela;
+    top: 0;
+    left: 0;
+	max-width: 310px;
+    width: 100%;
+   /* height: 100%;*/
+    overflow: hidden;
+    display: inline-block;
+    z-index: 1;
+    border: 1px solid #333333;
+    transition: all 0.2s ease-in-out;
+}
+.staff-detail 
+{
+    color: #666666;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: left;
+}
+p.primary-body
+{
+
+	color: #bfacac;
+    padding-bottom: 134px;
+    padding-top: 134px;
+    line-height: 1.8;
+    letter-spacing: 1px;
+    font-size: 29px;
+    margin: 2px;
+}
+#Meet-team
+{
+background-image: url('../img/Protect-your-legal-rights.jpg');
+height:562px;
+background-position:center;
+background-repeat:repeat;
+background-size: cover;
+bottom: 66px; 
+position: relative;
+width: 100%;
+height: 100vh;
+z-index: 1;
+}
+#Team-list a.read-bio span.staff-detail 
+{
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+    z-index: 5;
+	letter-spacing: 2px;
+	font-size:10px;
+}
+#Team-list a.read-bio span.staff-detail  strong
+{
+	color:#fff !important;
+	font-size:14px;
+	
+}
+span.staff-detail strong
+ {
+    font-size: 20px;
+}
+#About-Team
+{
+background-image: url('../img/Downtown-Toronto (1).jpg');
+height:562px;
+background-position:center;
+background-repeat:repeat;
+background-size: cover;
+bottom: 66px; 
+position: relative;
+width: 100%;
+height: 100vh;
+z-index: 1;
+}
+#Content-box {
+    border-top: 1px solid #1A1A1A;
+    border-bottom: 1px solid #1A1A1A;
+    background: #0F0F0F;
+    width: 100%;
+    margin: 0;
+    padding-top: 90px;
+    padding-bottom: 108px;
+}
+#Content-box .content2 
+{
+    border-radius: 0;
+    border-right: 1px solid #6666;
+    display: block;
+    line-height: 4em;
+}
+#Content-box .content2 span.box-title 
+{
+    color: #FFFFFF;
+    font-weight: 300;
+    display: block;
+    letter-spacing: .2em;
+    font-size: 3.875rem;
+    /* line-height: 2.29167vw; */
+}
+#Content-box .content2 span.box-detail 
+{
+    color: #666666;
+    font-weight: 600;
+    font-size: 1.8rem;
+    /* line-height: 1.09375vw; */
+    letter-spacing: 0.2em;
+}
+
+#familylaw-checklist
+{
+		padding-bottom: 14%;
+}
+#familylaw-checklist .d-flex.two-checklist 
+{
+    border: 1px solid;
+
+}
+#familylaw-checklist ul.checklist li.checklist-title h5
+{
+	color:#fff;
+	font-weight:bold;
+}
+#familylaw-checklist ul.checklist li 
+{
+    margin-top: 1.45em;
+    margin-bottom: 1.45em;
+    padding-left: 130px;
+    position: relative;
+	color: #cccc;
+	letter-spacing: 2px;
+    line-height: 2.4;
+}
+#familylaw-checklist ul.checklist li  i.fa.fa-check
+ {
+   
+    padding-right: 26px;
+}
+#familylaw-checklist .checklist-title:after {
+    background: #333333;
+    width: 50px;
+    height: 1px;
+    content: "";
+    display: block;
+    position: relative;
+    left: 0;
+    bottom: 0;
+}
+#complex-legal-issues
+ {
+    position: relative;
+    z-index: 2;
+    padding-top: 0;
+    padding-bottom: 60px;
+}
+#complex-legal-issues .fixed-wrapper {
+    width: 100%;
+    display: inline-block;
+    height: auto;
+    position: relative;
+    top: 50%;
+    left: 0;
+    /* z-index: 3; */
+    /* transform: translateY(-50%); */
+}
+#complex-legal-issues .fixed-wrapper img
+ {
+    position: relative;
+    z-index: 4;
+    width: 100%;
+    display: block;
+    height: auto;
+    top: 50%;
+
+}
+.center-screen {
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    position: absolute;
+    z-index: 5;
+    transform: translateY(-50%) translateX(-50%);
+}
+#complex-legal-issues .heading-50 
+{
+    font-size: 2.60417vw !important;
+    line-height: 1.5;
+	color:#fff;
+}
+
+
+#why-client .numbered-list-wrapper {
+    overflow: visible;
+    position: relative;
+}
+#client-det
+{
+	padding-bottom: 34vh;
+}
+.numbered-list-wrapper.with-middle-border:before {
+    background: #333;
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    content: "";
+    display: block;
+    z-index: 10;
+}
+.col-md-6.d-flex.top-200 {
+    padding-top: 20vh;
+}
+.numbered-list li span {
+    display: block;
+}
+ol.numbered-list li span.number {
+    top: 4px;
+    font-weight: 400;
+    color: #333333;
+}
+ol.numbered-list li span.number {
+    position: absolute;
+    width: 50px;
+    height: auto;
+    left: 0;
+    top: 0;
+    color: #666;
+}
+ol.numbered-list li {
+    padding-left: 50px;
+    position: relative;
+}
+.numbered-list li  span.title {
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+ol.numbered-list li span.content 
+{
+    padding-bottom: 2.61em;
+    color: #ccc;
+    padding-top: 13px;
+    letter-spacing: 3px;
+}
+ol.numbered-list.border-middle
+{
+	
+	border-right:1px solid;
+}
+#client-say 
+{
+    padding-top: 34vh;
+}
+#client-say ul.reviews-list
+ {
+   
+    position: relative;
+    left: 30px;
+}
+.reviews-list li:after {
+    width: 50px;
+    height: 1px;
+    position: absolute;
+    content: "";
+    display: block;
+    background-color: #333333;
+    left: 0;
+	bottom: 70px;;
+}
+ul.reviews-list li.title {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    padding-right: 24px;
+	font-style: italic;
+	color: #fff;
+    font-weight: bold;
+	letter-spacing:4px;
+	font-size:20px;
+	padding-bottom: 20vh;
+	
+}
+ul.reviews-list span.source {
+    font-style: normal;
+    color: #666;
+    line-height: 1.2;
+    text-transform: none;
+    font-weight: 300;
+}
+
+ul.reviews-list  li.title i.fa.fa-plus.collapsible
+{
+	float:right;
+}
+#Legal-disclaimer {
+    padding-top: 35vh;
+    padding-bottom: 26vh;
+}
+
+ 
+#Careers
+{
+background-image: url('../img/Lawyers-Wanted-Join-Our-Team.jpg');
+height:562px;
+background-position:center;
+background-repeat:repeat;
+background-size: cover;
+bottom: 66px; 
+position: relative;
+width: 100%;
+height: 100vh;
+z-index: 1;
+}
+
+.benefit-columns::after 
+{
+    background: #000;
+    width: 4px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right:8%;
+    transform: translateX(-50%);
+    content: "";
+    display: block;
+    z-index: 10;
+}
+#Greak-perks 
+{
+    padding-top: 22vh;
+}
+
+#Book-Counltation
+{
+background-image: url('../img/Book-Your-Consultation.jpg');
+height:562px;
+background-position:center;
+background-repeat:repeat;
+background-size: cover;
+bottom: 66px; 
+position: relative;
+width: 100%;
+height: 100vh;
+z-index: 1;
+}
+#books-couns-info
+ {
+    padding-bottom:140px;
+	padding-top:140px;
+}
+#footer
+{
+	color:#fff;
+	padding:7vw 0;
+	background:#000;
+}
+#Contact-Us
+{
+background-image: url('../img/Contact-Stanchieri-Family-Law.jpg');
+height:562px;
+background-position:center;
+background-repeat:repeat;
+background-size: cover;
+bottom: 66px; 
+position: relative;
+width: 100%;
+height: 100vh;
+z-index: 1;
+}
+
+.two-column
+{
+	display:flex;
+	flex-direction:column;
+}
+.benefit-columns2::after {
+    background: #000;
+    width: 4px;
+    height: 214%;
+    position: absolute;
+    top: 0;
+    right: 0%;
+    transform: translateX(-50%);
+    content: "";
+    display: block;
+    z-index: 10;
+}
+.center-col
+{
+	padding-top:50%;
+	position:relative;
+	right:40px;
+}
+.first-col
+{
+	padding:59px;
+}
+.second-col
+{
+	padding:59px;
+}
+#contact-time h5.office-heading
+{
+	color:#fff;
+	font-weight:bold;
+	margin-top: 14%;
+	letter-spacing:3px;
+}
+#contact-time ul.office-hours
+{
+	padding-top:30px;
+	width:100%;
+	max-width:385px;
+}
+
+#contact-time ul.office-hours li
+{
+	border-bottom:1px solid;
+	line-height:3.6;
+	letter-spacing:3px;
+}
+#contact-time ul.office-hours li:last-child
+{
+	border-bottom:0;
+}
+#contact-time span.date
+{
+	color:#ccc;
+}
+#contact-time span.hours
+{
+	color:#9999;
+	float:right;
+}
+
+
+form p {
+    position: relative;
+    margin-top: 0;
+    height: 120px;
+    max-height: 120px;
+}
+form p label {
+    position: absolute;
+    top: 86px;
+    left: 0;
+    width: 100%;
+    transition: all 0.2s ease-in-out;
+    color: #666;
+}
+form p span.wpcf7-form-control-wrap {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 120px;
+}
+
+form input[type=text], form select, form textarea {
+    width: 100%;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #222;
+    border-radius: 0;
+    color: #fff;
+    height: 33px;
+    transition: border-bottom-color 0.3s ease-in-out;
+    position: absolute;
+    bottom: 0;
+}
+form textarea {
+    padding: 0;
+    box-sizing: border-box;
+    resize: none;
+    overflow: hidden;
+    margin-top: 12px;
+}
+#wpcf7-f348-o1
+{
+	margin-left:65px;
+}
+.first-col::after
+{
+	content: "";
+    clear: both;
+    display: table;
+}
+.first-col::before {
+    background: #000;
+    width: 49vw;
+    height: 4px;
+    position: absolute;
+    top: 50%;
+    left: -2px;
+    /* transform: translateY(50%); */
+    content: "";
+    display: block;
+    z-index: 10;
+}
+#footer .footer-heading h4
+{
+	font-weight:bold;
+	border-right: 1px solid #6f6c6c;
+}
+#footer ul.footer-nav-menu {
+    display: flex;
+    padding: 0 46px;
+}
+#footer ul.footer-nav-menu li 
+{
+    padding: 0 16px;
+    list-style: none;
+}
+
+#footer ul.footer-nav-menu li a {
+    color: #CCCCCC;
+    font-weight: 600;
+	text-transform: uppercase;	
+	letter-spacing: 0.2em;
+}
+
+#footer ul.footer-nav-menu li a:hover
+{
+	text-decoration:none;
+	color:#FF7272;
+}
+#footer ul.footer-nav-menu li a.footer-btn 
+{
+    font-size: 11px;
+    padding: 25px;
+    border: 1px solid;
+	font-weight: bold;
+    color: #fff;
+}
+#footer ul.footer-nav-menu li a.footer-btn:hover 
+{
+    border-color: #FF7272;
+}
+@media (min-width: 768px)
+{
+.photo-block-wrapper .content.animate 
+{
+    -webkit-animation: home-slide-in-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    animation: home-slide-in-right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+	
+}
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+@media only screen and (max-width: 600px)
+{
+	
+	.main-logo a.navbar-brand.Short
+	{
+		display: inline-block;
+	}
+	.main-logo a.navbar-brand
+	{
+		display:none;
+	}
+	button.navbar-toggler
+	{
+		display:inline-block;
+	}
+	.arrow-img 
+	{
+		display:none;
+	}
+	h1.heading
+	{
+		font-size:30px;
+	}
+	.max-1920
+	{
+		padding:13px;
+	}
+	.photo-block-wrapper .content .content-wrapper h3
+	{
+		font-size: 22px;
+		color:#ccc;
+	}
+	a.typewrite
+	{
+		font-size:30px;
+	}
+	button.hamburger.hamburger--spin.hvr-backward
+	{
+		display: inherit;
+		position: fixed;
+		right: 15px;
+	}
+	.hamburger-box
+	{
+		position:relative;
+		top:5px;
+		display:inline-block;
+	}
+	.photo-block-wrapper.flipped
+	{
+		position:relative;
+		left:0;
+	}
+	#footer .footer-heading h4
+	{
+		border:none;
+	}
+	#footer ul.footer-nav-menu
+	{
+		display:inline-block;
+	}
+	#footer ul.footer-nav-menu li
+	{
+		line-height:3;
+	}
+	#footer ul.footer-nav-menu li a.footer-btn
+	{
+		font-size:11px;
+		padding: 14px
+	}
+	#Team-leaders
+	{
+		padding:0;
+	}
+	#familylaw-checklist ul.checklist li
+	{
+		padding-left: 40px;
+		position: relative;
+	}
+	#familylaw-checklist .d-flex.two-checklist
+	{
+		margin-bottom: 25px;
+	}
+	#client-det ol.numbered-list.border-middle
+	{
+		border-right:none;
+	}
+	.border-middle
+	{
+		border-right:none;
+	}
+	.benefit-columns::after
+	{
+		display:none;
+	}
+	.center-col
+	{
+		position:relative;
+		right:0;
+		padding-bottom:48px;
+	}
+	.first-col
+	{
+		padding:0;
+		padding-bottom: 48px;
+	}
+	.second-col
+	{
+		padding:0;
+		padding-top:48px;
+	}
+	#wpcf7-f348-o1
+	{
+		margin-left:0;
+	}
+	.first-col::before
+	{
+		width:100%;	
+	}
+	.benefit-columns2::before
+	{
+		background: #000;
+		width: 100%;
+		height: 4px;
+		position: absolute;
+		bottom: 10%;
+		left: 0px;
+		/* transform: translateY(50%); */
+		content: "";
+		display: block;
+		z-index: 10;
+	}
+	.Content-team
+	{
+		position: absolute;
+		left: 17px;
+		top: 85%;
+	}
+		.Content-team h1
+	{
+		font-weight:bold;
+		color:#fff;
+	}
+	.Content-team small.team-type
+	{
+		color:#fff;
+		font-size: 15px;
+	}
+	#JULIE-STANCHIERI
+	{
+		background-image: url('../img/JS.jpg');
+		height:562px;
+		background-position:center;
+		background-repeat:repeat;
+		background-size: cover;
+		position: relative;
+		width: 100%;
+		height: 100vh;
+		z-index: 1;
+	}
+	#ADRIENNE-LEE 
+	{
+		background-image: url('../img/AL-1-573x1024.jpg');
+		height: 562px;
+		background-repeat: repeat;
+		background-size: cover;
+		position: relative;
+		width: 100%;
+		height: 100vh;
+		z-index: 1;
+		/* left: -10%; */
+		padding: -79px;
+		background-origin: content-box;
+		background-attachment: fixed;
+	}
+	#NATALIE-DERBYSHIRE{
+		background-image: url('../img/ND-573x1024.jpg');
+		height: 562px;
+		background-repeat: repeat;
+		background-size: contain;
+		position: relative;
+		width: 100%;
+		height: 100vh;
+		z-index: 1;
+		/* left: -10%; */
+		padding: -79px;
+		background-origin: content-box;
+		background-attachment: fixed;
+	}
+	#RACHEL-HEALEY
+	{
+		background-image: url('../img/RH-2-573x1024.jpg');
+		height: 562px;
+		background-repeat: repeat;
+		background-size: contain;
+		position: relative;
+		width: 100%;
+		height: 100vh;
+		z-index: 1;
+		/* left: -10%; */
+		padding: -79px;
+		background-origin: content-box;
+		background-attachment: fixed;
+	}
+	#JENNIFER-VALLIERE
+	{
+		background-image: url('../img/JV.jpg');
+		height: 562px;
+		background-repeat: repeat;
+		background-size: contain;
+		position: relative;
+		width: 100%;
+		height: 100vh;
+		z-index: 1;
+		/* left: -10%; */
+		padding: -79px;
+		background-origin: content-box;
+		background-attachment: fixed;
+	}
+	#DEBORAH-CLARKE
+	{
+		background-image: url('../img/DC.jpg');
+		height: 562px;
+		background-repeat: repeat;
+		background-size: contain;
+		position: relative;
+		width: 100%;
+		height: 100vh;
+		z-index: 1;
+		/* left: -10%; */
+		padding: -79px;
+		background-origin: content-box;
+		background-attachment: fixed;
+	}
+	#TYLER-TEICHERT
+	{
+		background-image: url('../img/TT.jpg');
+		height: 562px;
+		background-repeat: repeat;
+		background-size: cover;
+		position: relative;
+		width: 100%;
+		height: 100vh;
+		z-index: 1;
+		/* left: -10%; */
+		padding: -79px;
+		background-origin: content-box;
+		background-attachment: fixed;
+	}
+	#ASHLEY-KENNEDY
+	{
+		background-image: url('../img/AK.jpg');
+		height: 562px;
+		background-repeat: repeat;
+		background-size: cover;
+		position: relative;
+		width: 100%;
+		height: 100vh;
+		z-index: 1;
+		/* left: -10%; */
+		padding: -79px;
+		background-origin: content-box;
+		background-attachment: fixed;
+	}
+	#ROBERT-MILLEY
+	{
+		background-image: url('../img/RM.jpg');
+		height: 562px;
+		background-repeat: repeat;
+		background-size: cover;
+		position: relative;
+		width: 100%;
+		height: 100vh;
+		z-index: 1;
+		/* left: -10%; */
+		padding: -79px;
+		background-origin: content-box;
+		background-attachment: fixed;
+	}
+	#RAMSHA-KHAN
+	{
+		background-image: url('../img/RK.jpg');
+		height: 562px;
+		background-repeat: repeat;
+		background-size: cover;
+		position: relative;
+		width: 100%;
+		height: 100vh;
+		z-index: 1;
+		/* left: -10%; */
+		padding: -79px;
+		background-origin: content-box;
+		background-attachment: fixed;
+	}
+	#ASHLEY-LEGER
+	{
+		background-image: url('../img/AAL.jpg');
+		height: 562px;
+		background-repeat: repeat;
+		background-size: cover;
+		position: relative;
+		width: 100%;
+		height: 100vh;
+		z-index: 1;
+		/* left: -10%; */
+		padding: -79px;
+		background-origin: content-box;
+		background-attachment: fixed;
+	}
+	#CHRISTI-KAY
+	{
+		background-image: url('../img/CK.jpg');
+		height: 562px;
+		background-repeat: repeat;
+		background-size: cover;
+		position: relative;
+		width: 100%;
+		height: 100vh;
+		z-index: 1;
+		/* left: -10%; */
+		padding: -79px;
+		background-origin: content-box;
+		background-attachment: fixed;
+	}
+	#LOUIS-PARENT
+	{
+		background-image: url('../img/LP.jpg');
+		height: 562px;
+		background-repeat: repeat;
+		background-size: cover;
+		position: relative;
+		width: 100%;
+		height: 100vh;
+		z-index: 1;
+		/* left: -10%; */
+		padding: -79px;
+		background-origin: content-box;
+		background-attachment: fixed;
+	}
+	#data-type ul.checklist li  em
+	{
+		float:none;
+		display:block;
+	}
+}
+
+@media (max-width: 900px)
+{
+.max-1920 .heading-60, .max-1920 .heading-50 {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+}
+@media (max-width: 520px)
+{
+.photo-block-wrapper {
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 0;
+    width: auto;
+    max-width: 100%;
+}}
+@media (max-width: 1200px)
+{
+.photo-block-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    width: 450px;
+    max-width: 100%;
+}
+}
+
+@media (max-width: 480px)
+{
+.photo-block-wrapper {
+    margin-bottom: 50px;
+}}
+
+@media (max-width: 1200px)
+{
+.photo-block-wrapper .content {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    opacity: 1 !important;
+    transform: none !important;
+}
+}
+
+
+@media (max-width: 1200px)
+{
+.photo-block-wrapper .content .content-wrapper {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 24px;
+}}
+@media only screen and (max-width: 425px)
+{
+	#JULIE-STANCHIERI 
+{
+    background-image: url(../img/JS.jpg);
+    height: 562px;
+    background-repeat: repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+}
+	
+}
+@media (max-width: 460.8px)
+{
+.photo-block-wrapper .content .content-wrapper
+ {
+    padding: 12px;
+}
+	#JULIE-STANCHIERI 
+	{
+		background-image: url(../img/JS.jpg);
+		height: 562px;
+		background-repeat: repeat;
+		background-size: cover;
+		position: relative;
+		width: 100%;
+		height: 100vh;
+		z-index: 1;
+	}
+
+#NATALIE-DERBYSHIRE{
+		background-image: url('../img/ND-573x1024.jpg');
+		height: 562px;
+		background-repeat: repeat;
+		background-size: cover;
+		position: relative;
+		width: 100%;
+		height: 100vh;
+		z-index: 1;
+		/* left: -10%; */
+		padding: -79px;
+		background-origin: content-box;
+		background-attachment: fixed;
+	}
+	#RACHEL-HEALEY
+	{
+		background-image: url('../img/RH-2-573x1024.jpg');
+		height: 562px;
+		background-repeat: repeat;
+		background-size: cover;
+		position: relative;
+		width: 100%;
+		height: 100vh;
+		z-index: 1;
+		/* left: -10%; */
+		padding: -79px;
+		background-origin: content-box;
+		background-attachment: fixed;
+	}
+}
+@media (max-width: 659px)
+{
+	.photo-block-wrapper p
+	{
+		font-size:14px;
+	}
+}
+.slick-controls {
+    text-align: center;
+    margin: 42px auto;
+    width: auto;
+    display: block;
+}
+.slick-controls button {
+    border: 1px solid #333333;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    text-align: left;
+    background: transparent;
+    box-shadow: none;
+    display: inline-block;
+    cursor: pointer;
+}
+.slick-controls .previous {
+    margin-right: 0;
+    display: block;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-49px) rotate(180deg);
+}
+.slick-controls .next {
+    margin-left: 0;
+    display: block;
+    left: 50%;
+    position: absolute;
+    transform: translateX(0px);
+}		
+.carousel-indicators li
+{
+	display:none;
+}
+button.slick-arrow i.fa:hover 
+{
+    color: #FF7272 !important;
+}
+
+
+#covid-19 .content-wrapper {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+#covid-19 h2 {
+    color: #FFFFFF;
+    font-weight: 300;
+    display: block;
+    letter-spacing: .2em;
+    font-size: 2.08333vw;
+    line-height: 3;
+}
+#covid-19 .primary-body-24 {
+    font-weight: 300;
+}
+.primary-body-24 {
+    letter-spacing: 0.2em;
+    line-height: 2;
+}
+button#close-btn {
+    color: #fff;
+    font-weight: normal;
+    position: absolute;
+	right:43%;
+    text-align: center;
+    border: 1px solid;
+	border-color: #4c4949;
+    border-radius: 0;
+    padding: 9px;
+	min-width:130px;
+	outline:none;
+}
+button#close-btn:hover
+{
+	border-color: #FF7272;
+}
